@@ -5,7 +5,7 @@ import android.content.Context
 import com.example.testarch.di.appModule
 import org.koin.core.context.startKoin
 
-class Part6Chapter01Application: Application() {
+class TestArchApplication: Application() {
     override fun onCreate() {
         super.onCreate()
         appContext = this
